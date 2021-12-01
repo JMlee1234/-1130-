@@ -14,3 +14,12 @@ for item in lst:
         break
     print("Item:{0}".format(item))
 
+
+
+lst = [1,2,3,4,5]
+[i**2 for i in lst]
+
+test = ("apple", "banana", "orage")
+[len(i) for i in test]
+
+d = {100:"apple", 200:"banana", 300:"orage"}
